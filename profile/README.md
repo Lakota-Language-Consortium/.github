@@ -37,7 +37,7 @@ license restricts machine-learning ingestion, and that restriction is the point.
 
 ## Projects
 
-### 🔤 Indigenous Keyboard — *active*
+### 🔤 Native American Keyboard — *active*
 
 Type Lakota — or any Indigenous language — on Android, iOS, Windows, macOS, and
 Linux.
@@ -55,8 +55,8 @@ their languages too.
 
 | Repository | Visibility | Contents |
 |---|---|---|
-| [`indigenous-keyboard`](https://github.com/Lakota-Language-Consortium/indigenous-keyboard) | Public | Layouts, builds and releases for every platform |
-| [`indigenous-keyboard-pack-template`](https://github.com/Lakota-Language-Consortium/indigenous-keyboard-pack-template) | Public | Template + guide for building a **private** dictionary pack |
+| [`indigenous-keyboard`](https://github.com/Lakota-Language-Consortium/native-american-keyboard) | Public | Layouts, builds and releases for every platform |
+| [`indigenous-keyboard-pack-template`](https://github.com/Lakota-Language-Consortium/native-american-keyboard-pack-template) | Public | Template + guide for building a **private** dictionary pack |
 | [`.github`](https://github.com/Lakota-Language-Consortium/.github) | Public | Governance and data sovereignty policy |
 
 Language packs are private and are not listed here.
@@ -73,7 +73,7 @@ The keyboard framework is open to any nation that wants it — Lakota, Crow,
 Blackfoot, or otherwise. You keep ownership and control of your language data at
 every step, and nothing you build has to pass through us.
 
-Start here: **[indigenous-keyboard-pack-template](https://github.com/Lakota-Language-Consortium/indigenous-keyboard-pack-template)**
+Start here: **[indigenous-keyboard-pack-template](https://github.com/Lakota-Language-Consortium/native-american-keyboard-pack-template)**
 
 ## A note on what's free and what isn't
 
