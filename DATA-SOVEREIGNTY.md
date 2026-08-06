@@ -75,6 +75,14 @@ with the sentences removed; it is still the language.
 | Textbooks, workbooks, exercises, assessments | Its author |
 | Illustrations and recordings produced for instruction | Its author |
 | Teacher guides and training materials | Its author |
+| Learning platforms, courseware, lesson-delivery software | Its author |
+| Vocabulary, practice, and assessment applications | Its author |
+| Teacher dashboards and classroom management tools | Its author |
+
+**Software can be pedagogy.** "Machinery is public" is not "all software is
+public." A keyboard engine is infrastructure; a learning platform is authored
+teaching that happens to be software. The test is whether it is infrastructure
+or instruction — not whether it compiles.
 
 **Teaching a language is not the same as owning it.** Designing a sequence of
 lessons, writing exercises, commissioning artwork, and testing what actually
