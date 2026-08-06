@@ -1,7 +1,10 @@
-# Data Sovereignty Policy
+# Data Sovereignty
 
-This policy governs every repository in this organization. It is not aspirational
-language. It determines what may be committed, where, and by whom.
+How we handle language data: what we publish, what stays private, and why.
+
+This describes our principles and our practice. It is not a contract and creates
+no obligations on anyone else. What binds a recipient of a language pack is the
+licence on that pack.
 
 ## The principle
 
@@ -114,24 +117,22 @@ The practical consequence, which is easy to get wrong:
 
 A publisher may sell its book. It may not sell the language in the book.
 
-## Structural rules
-
-These are enforced, not merely requested.
+## How we structure it
 
 1. **One private repository per language pack, held by the authority that
    maintains it.** Not per-organization. That authority controls the pack,
    including the right to revoke it. Where more than one authority maintains a
    pack for the same language, each holds its own.
 
-2. **Private packs are never submodules of public repositories.**
+2. **We do not make private packs submodules of public repositories.**
    A submodule reference in a public repo is a public pointer to private content
    and leaks the existence, name, and commit history of the pack. Packs are
    consumed as **built, signed binary artifacts** loaded at runtime.
 
-3. **The engine must build and run with zero packs installed.**
-   If a build ever requires a language pack, the seam has been breached.
+3. **The engine builds and runs with zero packs installed.**
+   If a build ever needs a language pack, the seam has been breached.
 
-4. **Illustrative examples are permitted. Collections are not.**
+4. **Illustrative examples are fine. Collections are not.**
 
    Showing a few words to document what a key produces, how a glyph renders, or
    how a bug reproduces is fine. That is teaching, and nations publish exactly
@@ -139,13 +140,13 @@ These are enforced, not merely requested.
    keyboard guides. A policy that forbade it would make the software
    undocumentable and would not protect anything.
 
-   What is prohibited is **systematic** language data: wordlists, lexicons,
+   What we keep out is **systematic** language data: wordlists, lexicons,
    corpora, frequency tables, paradigm sets, sentence collections, or anything
    assembled to be comprehensive.
 
    The distinction is *purpose and completeness*, not word count:
 
-   | Permitted | Prohibited |
+   | Fine | Not |
    |---|---|
    | "`R` produces `š`, as in `šúŋka`" | A list of words containing `š` |
    | A sentence showing mixed-script rendering | A collection of sentences |
@@ -164,8 +165,8 @@ pack they receive — see `LICENSE` in the pack template. Standard open-source
 licences do not restrict machine-learning use, which is why language packs are
 **not** open-source licensed.
 
-**We do not sell, license, or provide language data to any third party for
-training, fine-tuning, evaluating, or conditioning a model.**
+**We do not sell, license, or provide language data to anyone for training,
+fine-tuning, evaluating, or conditioning a model.**
 
 **A maintaining authority may train models on the data it maintains** and
 distribute them on its own terms.
@@ -173,7 +174,7 @@ distribute them on its own terms.
 Any other use requires that authority's specific, written, revocable consent.
 Absence of a refusal is not consent.
 
-Required technical measures on every private pack repository:
+What we do on a private pack repository:
 
 - Repository visibility **private**; organization-level fork policy disabled
 - Code-indexing integrations **disabled** at the organization level
@@ -223,10 +224,10 @@ If language data has been committed to a public repository, treat it as an
 incident, not a cleanup task. Email **security@lakhota.org**
 rather than opening a public issue — an issue describing the leak reproduces it.
 
-Deleting the commit is insufficient — the content must be rewritten out of the
-repository's history, and **the authority that contributed the affected
-material** must be notified however brief the exposure was. That notification is
-their right, not our discretion.
+Deleting the commit is not enough. We rewrite the content out of the
+repository's history and tell **the authority that contributed the affected
+material**, however brief the exposure was. That notification is their right, not
+our discretion.
 
 Copies already taken cannot be recalled. Forks, clones, caches and mirrors are
 outside our control; we can ask GitHub to purge caches and contact fork owners,
