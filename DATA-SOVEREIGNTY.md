@@ -147,7 +147,7 @@ These are enforced, not merely requested.
    Ask: *would this help someone reconstruct the language, or only help someone
    understand the software?* If the former, it belongs in the private pack.
 
-   When in doubt on a specific case, the owning nation decides — not the
+   When in doubt on a specific case, the maintaining authority decides — not the
    maintainers, and not the contributor.
 
 ## Machine learning and automated ingestion
@@ -167,7 +167,7 @@ Required technical measures on every private pack repository:
 - `.aiexclude`, `.cursorignore`, `.codeiumignore`, and `CLAUDE.md` guard files
   committed at the repository root
 - `noindex` headers and `robots.txt` denial on any hosted build artifact
-- Pack payloads encrypted at rest; signing keys held by the owning nation
+- Pack payloads encrypted at rest; signing keys held by the maintaining authority
 
 ### Working with AI coding assistants
 
@@ -188,7 +188,7 @@ contributors.
 The framework is open to any nation that wants it. The process:
 
 1. Fork `native-american-keyboard-pack-template` **as a private repository** owned by
-   your nation or its designated authority.
+   your nation's designated authority.
 2. Build your layout against the LDML spec. Contribute it publicly to
    `native-american-keyboard` **only if your nation chooses to** — this is
    optional, and packs work fine with a privately held layout.
