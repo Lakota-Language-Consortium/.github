@@ -202,6 +202,10 @@ If language data has been committed to a public repository, treat it as an
 incident, not a cleanup task. Email **security@lakhota.org**
 rather than opening a public issue — an issue describing the leak reproduces it.
 
-Deleting the commit is insufficient; the content must be purged from history and
-any forks, and the owning nation must be notified regardless of exposure
-duration. That notification is their right, not our discretion.
+Deleting the commit is insufficient — the content must be rewritten out of the
+repository's history, and the owning nation must be notified however brief the
+exposure was. That notification is their right, not our discretion.
+
+Copies already taken cannot be recalled. Forks, clones, caches and mirrors are
+outside our control; we can ask GitHub to purge caches and contact fork owners,
+and we say what we could not reach rather than implying the exposure was undone.
