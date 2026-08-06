@@ -160,10 +160,9 @@ A publisher may sell its book. It may not sell the language in the book.
 
 ## Machine learning and automated ingestion
 
-This policy binds this organization. Recipients are bound by the licence on the
-pack they receive — see `LICENSE` in the pack template. Standard open-source
-licences do not restrict machine-learning use, which is why language packs are
-**not** open-source licensed.
+What binds a recipient is the licence on the pack they receive — see `LICENSE` in
+the pack template. Standard open-source licences do not restrict machine-learning
+use, which is why language packs are **not** open-source licensed.
 
 **We do not sell, license, or provide language data to anyone for training,
 fine-tuning, evaluating, or conditioning a model.**
