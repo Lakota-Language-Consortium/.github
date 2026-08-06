@@ -184,10 +184,10 @@ contributors.
 
 The framework is open to any nation that wants it. The process:
 
-1. Fork `indigenous-keyboard-pack-template` **as a private repository** owned by
+1. Fork `native-american-keyboard-pack-template` **as a private repository** owned by
    your nation or its designated authority.
 2. Build your layout against the LDML spec. Contribute it publicly to
-   `indigenous-keyboard-layouts` **only if your nation chooses to** — this is
+   `native-american-keyboard` **only if your nation chooses to** — this is
    optional, and packs work fine with a privately held layout.
 3. Populate the pack privately. Nothing in that repository is ever pushed here.
 4. Distribute the built pack on whatever terms your nation sets, including not
