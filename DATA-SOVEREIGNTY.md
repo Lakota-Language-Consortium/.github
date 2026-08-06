@@ -54,14 +54,15 @@ what words contain it. That is why layouts are public and dictionaries are not.
 
 ### Private — language
 
-| Artifact | Where it lives |
-|---|---|
-| Wordlists, dictionaries, lexicons | Private per-nation repository |
-| Corpora, text collections, transcriptions | Private per-nation repository |
-| N-gram models, frequency data, trained weights | Private per-nation repository |
-| Morphological analyzers, FSTs, grammar rules | Private per-nation repository |
-| Autocorrect and prediction data | Private per-nation repository |
-| Audio, recordings, speaker data | Private per-nation repository |
+All of the following live in a private repository held by the authority that
+maintains that language pack:
+
+- Wordlists, dictionaries, lexicons
+- Corpora, text collections, transcriptions
+- N-gram models, frequency data, trained weights
+- Morphological analyzers, FSTs, grammar rules
+- Autocorrect and prediction data
+- Audio, recordings, speaker data
 
 Frequency data is included deliberately. A frequency-ranked wordlist is a corpus
 with the sentences removed; it is still the language.
@@ -109,9 +110,10 @@ A publisher may sell its book. It may not sell the language in the book.
 
 These are enforced, not merely requested.
 
-1. **One private repository per language, owned by the relevant nation.**
-   Not per-organization. A nation controls its own pack, including the right to
-   revoke it.
+1. **One private repository per language pack, held by the authority that
+   maintains it.** Not per-organization. That authority controls the pack,
+   including the right to revoke it. Where more than one authority maintains a
+   pack for the same language, each holds its own.
 
 2. **Private packs are never submodules of public repositories.**
    A submodule reference in a public repo is a public pointer to private content
