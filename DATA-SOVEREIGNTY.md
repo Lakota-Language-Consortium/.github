@@ -159,28 +159,33 @@ These are enforced, not merely requested.
 
 ## Machine learning and automated ingestion
 
-**No third party may use this language data to train, fine-tune, evaluate, or
-condition a model.** It may not be sold, licensed, contributed to a dataset, or
-provided to a model provider under any terms.
+This policy binds this organization. Recipients are bound by the licence on the
+pack they receive — see `LICENSE` in the pack template. Standard open-source
+licences do not restrict machine-learning use, which is why language packs are
+**not** open-source licensed.
 
-**The maintaining authority may train models on the data it maintains**, and
-distributes those models on its own terms.
+**We do not sell, license, or provide language data to any third party for
+training, fine-tuning, evaluating, or conditioning a model.**
 
-Any other use requires specific, written, revocable consent from the maintaining
-authority. Absence of a refusal is not consent.
+**A maintaining authority may train models on the data it maintains** and
+distribute them on its own terms.
 
-Standard open-source licenses do not restrict this. That is precisely why
-language packs are **not** open-source licensed — see `LICENSE` in the pack
-template.
+Any other use requires that authority's specific, written, revocable consent.
+Absence of a refusal is not consent.
 
 Required technical measures on every private pack repository:
 
 - Repository visibility **private**; organization-level fork policy disabled
-- GitHub Copilot and any code-indexing integration **disabled** at the org level
+- Code-indexing integrations **disabled** at the organization level
 - `.aiexclude`, `.cursorignore`, `.codeiumignore`, and `CLAUDE.md` guard files
   committed at the repository root
 - `noindex` headers and `robots.txt` denial on any hosted build artifact
-- Pack payloads encrypted at rest; signing keys held by the maintaining authority
+- Signing keys held by the maintaining authority
+
+These reduce exposure; none of them is complete. Organization settings cannot
+reach a contributor's personally licensed AI tooling, and guard files bind only
+software configured to read them. Access control — keeping the list of people
+with repository access short — does more than any of the above.
 
 ### Working with AI coding assistants
 
