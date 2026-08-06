@@ -21,12 +21,21 @@ open-source convention conflict, CARE wins.
 
 ## The line
 
-Every artifact in this project falls on one side of a single question:
+Artifacts fall into three categories, decided by two questions:
 
-> Could someone reconstruct meaning in the language from this file?
+> **1. Could someone reconstruct meaning in the language from this file?**
+> If no → it is **machinery**, and it is public.
+> If yes → it is **language**, and it is private.
+>
+> **2. Is this someone's authored work of teaching?**
+> If yes → it is **pedagogy**, and its author decides its terms.
 
-If **no**, it is machinery, and it is public.
-If **yes**, it is language, and it is private.
+The first two are the important split. The third exists because teaching a
+language is real labor that someone performed, and that labor has an owner who
+is not necessarily the owner of the language.
+
+Crucially, **categories two and three stack.** A textbook is pedagogy *and* it
+contains language. Both sets of rights apply to the same file at the same time.
 
 ### Public — machinery
 
@@ -56,6 +65,45 @@ what words contain it. That is why layouts are public and dictionaries are not.
 Frequency data is included deliberately. A frequency-ranked wordlist is a corpus
 with the sentences removed; it is still the language.
 
+### Proprietary — pedagogy
+
+| Artifact | Held by |
+|---|---|
+| Curriculum, scope and sequence, lesson plans | Its author |
+| Textbooks, workbooks, exercises, assessments | Its author |
+| Illustrations and recordings produced for instruction | Its author |
+| Teacher guides and training materials | Its author |
+
+**Teaching a language is not the same as owning it.** Designing a sequence of
+lessons, writing exercises, commissioning artwork, and testing what actually
+helps a learner — that is authored work, and its author may hold it, license it,
+or sell it. The Lakota Language Consortium does exactly that, and the revenue
+funds the open infrastructure in this organization.
+
+This is an ordinary copyright and commercial matter. It is **not** a sovereignty
+claim, and it must never be dressed up as one.
+
+#### The two rights stack; neither overrides the other
+
+- **Owning the teaching effort does not grant ownership of the language it
+  teaches.** LLC's copyright in a Lakota textbook does not make LLC an owner of
+  Lakota. No amount of authorship, funding, or institutional history converts
+  into a claim on the language itself.
+
+- **A nation's authority over its language does not entitle it to another
+  party's curriculum** — while that nation does retain authority over the
+  language content inside that curriculum.
+
+The practical consequence, which is easy to get wrong:
+
+> **A proprietary textbook still contains language data.**
+> Purchasing it does not license the language inside it for redistribution,
+> corpus-building, or machine-learning use. Commercial terms and sovereignty
+> terms apply to the same file simultaneously, and the stricter one governs any
+> given use.
+
+A publisher may sell its book. It may not sell the language in the book.
+
 ## Structural rules
 
 These are enforced, not merely requested.
@@ -73,10 +121,31 @@ These are enforced, not merely requested.
    This is a CI check, not a convention. If the build ever requires a language
    pack, the seam has been breached.
 
-4. **No language data in any public issue, PR, discussion, test fixture,
-   commit message, or screenshot.** Test fixtures use the synthetic placeholder
-   script defined in the pack template. Bug reports about a real word are filed
-   in the private pack repository, not here.
+4. **Illustrative examples are permitted. Collections are not.**
+
+   Showing a few words to document what a key produces, how a glyph renders, or
+   how a bug reproduces is fine. That is teaching, and nations publish exactly
+   this kind of example in their own primers, dictionaries' front matter, and
+   keyboard guides. A policy that forbade it would make the software
+   undocumentable and would not protect anything.
+
+   What is prohibited is **systematic** language data: wordlists, lexicons,
+   corpora, frequency tables, paradigm sets, sentence collections, or anything
+   assembled to be comprehensive.
+
+   The distinction is *purpose and completeness*, not word count:
+
+   | Permitted | Prohibited |
+   |---|---|
+   | "`R` produces `š`, as in `šúŋka`" | A list of words containing `š` |
+   | A sentence showing mixed-script rendering | A collection of sentences |
+   | A bug report quoting the word that breaks | A file of test words |
+
+   Ask: *would this help someone reconstruct the language, or only help someone
+   understand the software?* If the former, it belongs in the private pack.
+
+   When in doubt on a specific case, the owning nation decides — not the
+   maintainers, and not the contributor.
 
 ## Machine learning and automated ingestion
 
@@ -118,7 +187,7 @@ The framework is open to any nation that wants it. The process:
 1. Fork `indigenous-keyboard-pack-template` **as a private repository** owned by
    your nation or its designated authority.
 2. Build your layout against the LDML spec. Contribute it publicly to
-   `indigenous-keyboard-core` **only if your nation chooses to** — this is
+   `indigenous-keyboard-layouts` **only if your nation chooses to** — this is
    optional, and packs work fine with a privately held layout.
 3. Populate the pack privately. Nothing in that repository is ever pushed here.
 4. Distribute the built pack on whatever terms your nation sets, including not
