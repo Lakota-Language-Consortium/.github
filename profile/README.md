@@ -55,8 +55,7 @@ their languages too.
 
 | Repository | Visibility | Contents |
 |---|---|---|
-| [`indigenous-keyboard-app`](https://github.com/Lakota-Language-Consortium/indigenous-keyboard-app) | Public | The mobile keyboard app (Android + iOS) |
-| [`indigenous-keyboard-layouts`](https://github.com/Lakota-Language-Consortium/indigenous-keyboard-layouts) | Public | Layout descriptors. Character maps — no language data. |
+| [`indigenous-keyboard`](https://github.com/Lakota-Language-Consortium/indigenous-keyboard) | Public | Layouts, builds and releases for every platform |
 | [`indigenous-keyboard-pack-template`](https://github.com/Lakota-Language-Consortium/indigenous-keyboard-pack-template) | Public | Template + guide for building a **private** dictionary pack |
 | [`.github`](https://github.com/Lakota-Language-Consortium/.github) | Public | Governance and data sovereignty policy |
 
