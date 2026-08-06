@@ -22,8 +22,10 @@ These are different things, and we keep them in different places.
 
 Everything we publish here follows one split:
 
-- **The machinery is public.** Engines, layouts, schemas, build tooling, apps.
-  Anyone may use, fork, audit, and contribute.
+- **The machinery is public.** Engines, layouts, schemas, build tooling, and the
+  keyboard apps themselves. Anyone may use, fork, audit, and contribute.
+  Teaching software — learning platforms, practice and assessment apps — is not
+  machinery; it is authored instruction, and its terms are its author's.
 - **The language is private.** Dictionaries, corpora, recordings, and prediction
   models live in private repositories owned by individual nations. Where the data
   is not ours, we have no access to it.
