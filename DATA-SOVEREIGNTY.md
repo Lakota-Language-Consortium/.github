@@ -129,8 +129,7 @@ These are enforced, not merely requested.
    consumed as **built, signed binary artifacts** loaded at runtime.
 
 3. **The engine must build and run with zero packs installed.**
-   This is a CI check, not a convention. If the build ever requires a language
-   pack, the seam has been breached.
+   If a build ever requires a language pack, the seam has been breached.
 
 4. **Illustrative examples are permitted. Collections are not.**
 
@@ -160,10 +159,15 @@ These are enforced, not merely requested.
 
 ## Machine learning and automated ingestion
 
-Language data in this project **may not be used to train, fine-tune, evaluate, or
-condition any machine-learning model** without specific, written, revocable
-consent from the authority that maintains that language pack. Absence of a
-refusal is not consent.
+**No third party may use this language data to train, fine-tune, evaluate, or
+condition a model.** It may not be sold, licensed, contributed to a dataset, or
+provided to a model provider under any terms.
+
+**The maintaining authority may train models on the data it maintains**, and
+distributes those models on its own terms.
+
+Any other use requires specific, written, revocable consent from the maintaining
+authority. Absence of a refusal is not consent.
 
 Standard open-source licenses do not restrict this. That is precisely why
 language packs are **not** open-source licensed — see `LICENSE` in the pack

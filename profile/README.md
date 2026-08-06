@@ -28,8 +28,7 @@ Everything we publish here follows one split:
   machinery; it is authored instruction, and its terms are its author's.
 - **The language is private.** Dictionaries, corpora, recordings, and prediction
   models live in private repositories held by the authority that maintains each
-  pack. Where the data
-  is not ours, we have no access to it.
+  pack. Where the data is not ours, we have no access to it.
 
 This is not a licensing preference. It follows the [CARE Principles for
 Indigenous Data Governance](https://www.gida-global.org/care) and it is why our
@@ -42,14 +41,14 @@ license restricts machine-learning ingestion, and that restriction is the point.
 
 ### 🔤 Native American Keyboard — *active*
 
-Type Lakota — or any Indigenous language — on Android, iOS, Windows, macOS, and
-Linux.
+Type Lakota — or any Indigenous language — on Android, iOS, Windows, macOS and
+ChromeOS.
 
 **One app. Switch on the languages you speak.** No separate download per
 language, no second app to install. On mobile the keys show the actual letters —
 `š`, `ǧ`, `ŋ` — so there is nothing to memorize.
 
-Includes predictive text, which has never existed for Lakota or any Siouan
+Predictive text is in development. It has never existed for Lakota or any Siouan
 language.
 
 Built on [GiellaLT / Divvun](https://github.com/divvun) (Apache 2.0), the Sámi
@@ -58,7 +57,7 @@ their languages too.
 
 | Repository | Visibility | Contents |
 |---|---|---|
-| [`indigenous-keyboard`](https://github.com/Lakota-Language-Consortium/native-american-keyboard) | Public | Layouts, builds and releases for every platform |
+| [`native-american-keyboard`](https://github.com/Lakota-Language-Consortium/native-american-keyboard) | Public | Layouts, builds and releases for every platform |
 | [`native-american-keyboard-pack-template`](https://github.com/Lakota-Language-Consortium/native-american-keyboard-pack-template) | Public | Template + guide for building a **private** dictionary pack |
 | [`.github`](https://github.com/Lakota-Language-Consortium/.github) | Public | Governance and data sovereignty policy |
 
@@ -98,8 +97,8 @@ you to learn from it — not to redistribute the language in it or feed it to a
 model.
 
 **The infrastructure is free and open source, permanently.** The keyboard, the
-layouts, the fonts, and the framework require no purchase, no account, and no
-permission from us. If you only ever use the free tools and never buy a thing
+layouts and the framework require no purchase, no account, and no permission
+from us. If you only ever use the free tools and never buy a thing
 from us, that is a success by our measure, not a loss.
 
 ## License
