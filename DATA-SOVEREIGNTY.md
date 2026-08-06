@@ -199,7 +199,7 @@ over any pack but their own. We maintain the machinery. You hold the language.
 ## Reporting a violation
 
 If language data has been committed to a public repository, treat it as an
-incident, not a cleanup task. Email **security@lakotalanguageconsortium.org**
+incident, not a cleanup task. Email **security@lakhota.org**
 rather than opening a public issue — an issue describing the leak reproduces it.
 
 Deleting the commit is insufficient; the content must be purged from history and
