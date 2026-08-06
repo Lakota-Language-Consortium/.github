@@ -21,21 +21,22 @@ open-source convention conflict, CARE wins.
 
 ## The line
 
-Artifacts fall into three categories, decided by two questions:
+Every artifact is **machinery**, **language**, or **pedagogy**.
 
-> **1. Could someone reconstruct meaning in the language from this file?**
-> If no → it is **machinery**, and it is public.
-> If yes → it is **language**, and it is private.
+> **Could someone reconstruct meaning in the language from this file?**
+> No → **machinery**. Public.
+> Yes → **language**. Private.
 >
-> **2. Is this someone's authored work of teaching?**
-> If yes → it is **pedagogy**, and its author decides its terms.
+> **Is it someone's authored work of teaching?**
+> Yes → **pedagogy**. Its author decides its terms.
 
-The first two are the important split. The third exists because teaching a
-language is real labor that someone performed, and that labor has an owner who
-is not necessarily the owner of the language.
+Machinery and language are the split that matters most. Pedagogy is separate
+because teaching a language is authored labor with an owner who is not
+necessarily the owner of the language.
 
-Crucially, **categories two and three stack.** A textbook is pedagogy *and* it
-contains language. Both sets of rights apply to the same file at the same time.
+**Language and pedagogy stack.** A textbook is pedagogy *and* it contains
+language. Both sets of rights apply to the same file at once, and the stricter
+governs.
 
 ### Public — machinery
 
