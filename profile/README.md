@@ -109,4 +109,4 @@ licensed — see the template repository for why.
 ## Contact
 
 [lakhota.org](https://lakhota.org) · Data exposure reports:
-**security@lakotalanguageconsortium.org**
+**security@lakhota.org**
