@@ -39,17 +39,24 @@ license restricts machine-learning ingestion, and that restriction is the point.
 
 ### 🔤 Indigenous Keyboard — *active*
 
-Type Lakota — or any Indigenous language — on Windows, macOS, Linux, Android,
-iOS, and the web. Built on [Keyman](https://keyman.com) (MIT, SIL Global), with
-layouts written to the [Unicode CLDR LDML
-standard](https://unicode-org.github.io/cldr/ldml/tr35-keyboards.html).
+Type Lakota — or any Indigenous language — on Android, iOS, Windows, macOS, and
+Linux.
 
-Includes predictive text and autocorrect, which have never existed for Lakota or
-any Siouan language.
+**One app. Switch on the languages you speak.** No separate download per
+language, no second app to install. On mobile the keys show the actual letters —
+`š`, `ǧ`, `ŋ` — so there is nothing to memorize.
+
+Includes predictive text, which has never existed for Lakota or any Siouan
+language.
+
+Built on [GiellaLT / Divvun](https://github.com/divvun) (Apache 2.0), the Sámi
+language technology stack, whose tools exist because mainstream keyboards ignored
+their languages too.
 
 | Repository | Visibility | Contents |
 |---|---|---|
-| [`indigenous-keyboard-layouts`](https://github.com/Lakota-Language-Consortium/indigenous-keyboard-layouts) | Public | Keyboard layouts (LDML). Character maps — no language data. |
+| [`indigenous-keyboard-app`](https://github.com/Lakota-Language-Consortium/indigenous-keyboard-app) | Public | The mobile keyboard app (Android + iOS) |
+| [`indigenous-keyboard-layouts`](https://github.com/Lakota-Language-Consortium/indigenous-keyboard-layouts) | Public | Layout descriptors. Character maps — no language data. |
 | [`indigenous-keyboard-pack-template`](https://github.com/Lakota-Language-Consortium/indigenous-keyboard-pack-template) | Public | Template + guide for building a **private** dictionary pack |
 | [`.github`](https://github.com/Lakota-Language-Consortium/.github) | Public | Governance and data sovereignty policy |
 
@@ -95,8 +102,9 @@ from us, that is a success by our measure, not a loss.
 
 ## License
 
-Code is MIT. Fonts are [SIL OFL 1.1](https://openfontlicense.org). Language packs
-are not open-source licensed — see the template repository for why.
+App code is Apache 2.0 (matching upstream); layouts and tooling are MIT. Fonts are
+[SIL OFL 1.1](https://openfontlicense.org). Language packs are not open-source
+licensed — see the template repository for why.
 
 ## Contact
 
