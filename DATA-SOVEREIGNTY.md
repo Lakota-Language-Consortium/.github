@@ -162,7 +162,8 @@ These are enforced, not merely requested.
 
 Language data in this project **may not be used to train, fine-tune, evaluate, or
 condition any machine-learning model** without specific, written, revocable
-consent from the nation that owns it. Absence of a refusal is not consent.
+consent from the authority that maintains that language pack. Absence of a
+refusal is not consent.
 
 Standard open-source licenses do not restrict this. That is precisely why
 language packs are **not** open-source licensed — see `LICENSE` in the pack
@@ -198,10 +199,10 @@ The framework is open to any nation that wants it. The process:
 1. Fork `native-american-keyboard-pack-template` **as a private repository** owned by
    your nation's designated authority.
 2. Build your layout against the LDML spec. Contribute it publicly to
-   `native-american-keyboard` **only if your nation chooses to** — this is
+   `native-american-keyboard` **only if your authority chooses to** — this is
    optional, and packs work fine with a privately held layout.
 3. Populate the pack privately. Nothing in that repository is ever pushed here.
-4. Distribute the built pack on whatever terms your nation sets, including not
+4. Distribute the built pack on whatever terms your authority sets, including not
    distributing it at all.
 
 The maintainers of this organization have no claim on, access to, or authority

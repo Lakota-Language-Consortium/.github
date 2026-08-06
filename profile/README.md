@@ -27,7 +27,8 @@ Everything we publish here follows one split:
   Teaching software — learning platforms, practice and assessment apps — is not
   machinery; it is authored instruction, and its terms are its author's.
 - **The language is private.** Dictionaries, corpora, recordings, and prediction
-  models live in private repositories owned by individual nations. Where the data
+  models live in private repositories held by the authority that maintains each
+  pack. Where the data
   is not ours, we have no access to it.
 
 This is not a licensing preference. It follows the [CARE Principles for
